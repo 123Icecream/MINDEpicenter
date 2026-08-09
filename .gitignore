@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (never commit raw/intermediate data)
+data/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.nii.gz
+
+# Explicitly tracked input data for reproducibility
+!data/
+!data/ABIDE2_AGE.xlsx
+!data/CABIC_AGE.xlsx
+!data/ABIDE2_AGE_Sub.xlsx
+!data/CABIC_AGE_Sub.xlsx
+!data/ABIDE2_all_aparc_features.csv
+!data/CABIC_all_aparc_features.csv
+!data/allen_gene_expression_dk68.csv
+!data/NormativeChart_rhcACC_Trajectory.csv
+!data/SFARI-Gene_genes_05-01-2026release_06-07-2026export.csv
+!data/MIND/
+!data/MIND/**
+
+# Outputs / figures
+output/
+Figures/
+Fig*/
+!Fig*/keep_me.md
+
+# Environment
+.env
+.venv/
+venv/
