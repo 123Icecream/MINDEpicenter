@@ -12,10 +12,13 @@ statsmodels>=0.13
 neuroCombat>=1.0.5
 nilearn>=0.9
 mne-connectivity>=0.5
+abagen>=0.7.1
+enigmatoolbox>=0.6.6
 
 # Plotting
 matplotlib>=3.4
 seaborn>=0.11
+Pillow>=8.0
 
 # Utilities
 tqdm>=4.60
